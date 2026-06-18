@@ -1,0 +1,48 @@
+{
+  "name": "hackground",
+  "version": "1.0.0",
+  "description": "Hackground is a Hack Clubber Playground where Hack Clubbers like me can share small snippets or dumb—maybe useful—small tools. Think \"GitHub Gists meets Lingojam/Static.app.\" It's just a grid of mini web apps made by Hack Clubbers!",
+  "keywords": [
+    "hackground",
+    "hack",
+    "ground",
+    "hack",
+    "club",
+    "hackclub",
+    "gist",
+    "snippet",
+    "sharing",
+    "app",
+    "web",
+    "applet"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NullClock/Hackground"
+  },
+  "license": "MIT",
+  "author": "NullClock",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^10.3.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.6.0",
+    "vite": "^8.0.12"
+  }
+}
